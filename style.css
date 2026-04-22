@@ -1,0 +1,12 @@
+.fakeButton {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+}
+.fakeButton:hover {
+    background-color: gainsboro;
+    cursor: pointer;
+}
