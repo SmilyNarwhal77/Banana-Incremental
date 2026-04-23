@@ -2,26 +2,22 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8">
-        <title>Incremental 3D</title>
+        <title>Banana Incremental</title>
         <script src="./script.js"></script>
-        <!-- <script type="module" src="./libraries.js"></script> -->
         <link rel="stylesheet" href="./style.css">
-        <link rel="favicon" href="favicon.">
+        <link rel="favicon" href="favicon.ico">
     </head>
     <body>
         <p>You have <span id="bananaDisplay">0</span> banana.</p>
-        <div class="fakeButton" onclick="addbanana()">Click to get <span id="bananaPerClickDisplay"></span> banana</div>
-        <script>
-            /*
-            import * as THREE from "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js";
-            const scene = THREE.Scene()
-            const renderer = new THREE.WebGLRenderer();
-            renderer.setSize(window.innerWidth, window.innerHeight);                document.body.appendChild(renderer.domElement);v
-            const geometry = new THREE.BoxGeometry();
-            const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-            const cube = new THREE.Mesh(geometry, material);
-            scene.add(cube);
-            */
-        </script>
+        <div class="fakeButton getbanana" onclick="banana()">
+            Click to get 
+            <span id="bananaPerClickDisplay">
+                
+            </span>
+            banana
+            <span id="plural">
+
+            </span>
+        </div>
     </body>
 </html>
